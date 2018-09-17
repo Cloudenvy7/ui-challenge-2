@@ -2,7 +2,7 @@ div {
   display: block;
 }
 
-.formRadio input label {
+.formRadio label {
   /* display:none; */
   display:inline-block;
   cursor: pointer;
@@ -10,10 +10,11 @@ div {
   width: 128px;
   
   height: 128px;
-  background-image: url(../comps/custom-form-elements.png);
+  background-image: url("../sprites/form-elements-sprite.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   text-indent: -99999px;
+  background: blue;
 }
 
 }
