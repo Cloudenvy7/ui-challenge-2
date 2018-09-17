@@ -2,8 +2,20 @@ div {
   display: block;
 }
 
-.formRadio radio {
-  /* display:none */
+.formRadio input label {
+  /* display:none; */
+  display:inline-block;
+  cursor: pointer;
+  outline: 0; 
+  width: 128px;
+  
+  height: 128px;
+  background-image: url(../comps/custom-form-elements.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  text-indent: -99999px;
+}
+
 }
 
 /* Create a custom checkbox */
@@ -12,6 +24,7 @@ input type[radio] {
     cursor: pointer;
     outline: 0; 
     width: 128px;
+
     height: 128px;
     background-image: url(/comps/custom-form-elements.png);
     background-repeat: no-repeat;

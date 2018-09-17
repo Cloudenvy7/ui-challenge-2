@@ -23,17 +23,36 @@
 const appendingToForm = () => {
   // let mainContainer = document.getElementsByTagName('mainContainer');
 
-  let textinputSection = document.getElementsByTagName('.formText');
-  let dropDownSection = document.getElementsByTagName('.formSelect');
-  let checkBoxSection = document.getElementsByTagName('.fromCheckBox');
-  
+//
+  document.getElementsByTagName('.formText');
+  let textInputOne = $('<input type="text" name="Textone" value = "placeholder"/>');
+  let textInputTwo = $('<input type="text" name="Texttwo" value = "placeholder"/>');
+  $('.formText').append(textInputOne);
+  $('.formText').append(textInputTwo);
+
+
+  document.getElementsByTagName('.formSelect');
+  let SelectionOne = $('<select name ="dropDownMenu"  value = "select"/>');
+  let SelectionTwo = $('<select name ="dropdownMenuTwo"  value = "select"/>'); 
+  $('.formSelect').append(SelectionOne);
+  $('.formSelect').append(SelectionTwo);
+
+
+  document.getElementsByTagName('.fromCheckBox');
+  let CheckBoxOne = $('<input type ="checkbox"  name = "option1"/>');
+  let CheckBoxTwo = $('<input type ="checkbox"  name = "option2"/>'); 
+  $('.fromCheckBox').append(CheckBoxOne);
+  $('.fromCheckBox').append(CheckBoxTwo);
+
   document.getElementsByTagName('.formRadio');
-  let radioButton = $('<input type="radio" name="rbtnCount" <span class="checkmark"><span> />');
-  $('.formRadio').append(radioButton)
+  let radioButton1 = $('<label for="male"><input type="radio" name="rbtnCount" label = "male"/>Male</label>');
+  let radioButton2 = $('<input type="radio" name="rbtnCount2" <span class="checkmark"></span>');
+  $('.formRadio').append(radioButton1);
+  $('.formRadio').append(radioButton2);
 
  
  
-  let ButtonSection = document.getElementsByTagName('.formButton');
+  // let ButtonSection = document.getElementsByTagName('.formButton');
   
   // const radioButtonAppend = () => {
   //   for (let i = 0; i < 2; i++) {
@@ -45,10 +64,9 @@ const appendingToForm = () => {
   // };
 
  
-  $('p').append('<strong>Hello</strong>');
-
+  // $('p').append('<strong>Hello</strong>');
   //append all the work to the to form "fullForm"
-  radioButtonAppend();
+  // radioButtonAppend();
 };
 
 appendingToForm();
