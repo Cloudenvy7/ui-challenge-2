@@ -1,3 +1,20 @@
 div {
   display: block;
 }
+
+.formRadio radio {
+  /* display:none */
+}
+
+/* Create a custom checkbox */
+input type[radio] {
+    display:inline-block;
+    cursor: pointer;
+    outline: 0; 
+    width: 128px;
+    height: 128px;
+    background-image: url(/comps/custom-form-elements.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -99999px;
+  }
