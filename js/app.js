@@ -26,10 +26,12 @@ const appendingToForm = () => {
 //
   document.getElementsByTagName('.formText');
   let textInputOne = $('<input type="text" name="Textone" value = "placeholder"/>');
-  let textInputTwo = $('<input type="text" name="Texttwo" value = "placeholder"/>');
+  let textInputTwo = $('<input type="text" name="Texttwo" value = "placeholder" label = "text validation"/>');
   $('.formText').append(textInputOne);
-  $('.formText').append(textInputTwo);
+  // $('#textValidation').append(textInputTwo);
+  $('#textValidation').append(textInputTwo);
 
+  
 
   document.getElementsByTagName('.formSelect');
   let SelectionOne = $('<select name ="dropDownMenu"  value = "select"/>');

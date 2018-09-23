@@ -1,0 +1,27 @@
+
+.formSelect {
+  width: 70%;
+  background-color: beige;
+}
+
+.formCheckBox {
+  width: 70%;
+  background-color: cadetblue;
+}
+
+.formRadio {
+  width: 70%;
+  background-color: red;
+}
+
+.formButton {
+  width: 70%;
+  background-color:purple;
+}
+
+
+
+
+#textValidation {
+  background-color: black;
+}
